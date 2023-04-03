@@ -12,7 +12,7 @@ Here, given a simple discete-time linear dynamical system in which the A matrix 
 
 A natural question is then what happens when the network is trained starting directly from the calculated weights. The related analysis shows that the calculated solution lies in a very narrow attraction basin, from which the training algorithm can very easily get out even with relatively small learning rates.
 
-The final, and most important, question is whether, when starting from random initial weights, the training algorithm can find a solution that is close enough to (or possibly better than) the one calculated from the true system matrices. 
+The final, and most important, question is whether, when starting from random initial weights, the training algorithm can find a solution that is close enough to the one calculated from the true system matrices. 
 
 The answer seems to be negative: the training algorithm ends up in a local minimum that is very dependent on both the initial conditions and the hyperparameters. This solution is also quite different from (and does not perform as well as) the solution previously calculated from the system matrices.
 
@@ -32,7 +32,7 @@ Note: The initial part of the example uses Simulink, but you can follow and exec
 
 # Content
 
-1) LSTMexplained.mlx -  Main file
+1) LSTM_explained.mlx -  Main file
 2) lstm_sim.mdl      -  Simulink model of an LSTM layer 
 
 ## Author
