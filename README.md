@@ -2,6 +2,8 @@
 
 [![View LSTM as a Dynamical System on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/124970-lstm-as-a-dynamical-system)
 
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=giampy1969/lstm-as-a-dynamical-system)
+
 This example explains how an LSTM (Long Short-Term Memory) layer can be seen as a nonlinear dynamical system with a specific structure, and sheds some light on whether, and how, an LSTM layer can approximate a linear dynamical system. 
 
 In the first part of the example, a network containing a single LSTM layer is defined and simulated using both the Deep Learning Toolbox&trade; and Simulink&reg;. The Simulink representation, being more visual, clearly shows the two underlying feedback loops at the heart of the LSTM layer. The fact that the number of parameters of an LSTM scales quadratically with the number of units is also highlighted and explained here.
